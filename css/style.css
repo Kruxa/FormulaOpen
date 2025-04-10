@@ -1,0 +1,286 @@
+@font-face {
+    font-family: OpenFormula;
+    src: url("/fonts/Formula1-Bold_web_0.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: rgb(21, 21, 29);
+    font-family: OpenFormula;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+.mobillogga {
+    width: 100%;
+    display: block;
+}
+.datorlogga {
+    display: none;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    width: 94%;
+    margin: auto;
+}
+
+.navbar #links {
+    display: none;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: grid;
+}
+
+.navbar a.icon {
+    background: rgb(34, 34, 34);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar a:hover {
+    background-color: #810000;
+    color: black;
+}
+
+.active {
+    background-color: #990000;
+    color: white;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu div {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#menu p:first-child {
+    width: 10%;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(22, 22, 22);
+} 
+
+#menu div > div {
+    width: 75%;
+    line-height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.avoxboatclub {
+    background-color: rgb(1, 219, 153);
+}
+.evileyeracing {
+    background-color: rgb(152, 88, 179);
+}
+.everdawnracing {
+    background-color: rgb(17, 126, 107);
+}
+.vinderacing {
+    background-color: rgb(31, 102, 148);
+}
+
+
+#menu .logga {
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+#menu .face {
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+
+#menu .points {
+    width: 15%;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+
+} 
+
+#menu p {
+    margin: 0;
+}
+
+.rubrikFormula {
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+    text-align: center;
+    margin-top: 2px;
+}
+
+.bildmenu {
+    width: 94%;
+    background-color: rgb(29, 29, 39);
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.bildmenu div {
+    background-color: rgb(35, 35, 46);
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 4px;
+    padding: 10px;
+    padding-bottom: 17px;
+}
+
+.bildmenu div img {
+    width: 92%;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.bildmenu div p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
+.standings {
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.champ {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banor {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+.navbar div div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+.navbar div div a {
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.navbar img {
+    height: 20px;
+    vertical-align: middle;
+    padding-right: 6px;
+}
+
+.kommanderace {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding-bottom: 7px;
+    border-top: 4px solid rgba(0, 0, 0, 0.404);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.404);
+
+}
+.kommanderace p {
+    margin-top: 8px;
+}
+
+.kommanderace img {
+    width: 88%;
+}
+
+.norace {
+    font-size: 13px;
+}
+
+.avslutaderace {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.avslutaderace img {
+    width: 90%;
+}
+
+@media (min-width: 1030px) {
+    .bildmenu div {
+        width: calc(50% - 46px);
+        margin: 10px;
+        align-items: center;
+    }
+
+    .bildmenu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .datorlogga {
+        width: 100%;
+        display: block;
+    }
+    .mobillogga {
+        display: none;
+    }
+
+    .avslutaderace img {
+        width: 45%;
+        padding: 10px;
+    }
+
+    
+}
