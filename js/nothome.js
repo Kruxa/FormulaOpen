@@ -8,42 +8,42 @@ const teams = {
 const userList = [
 	[
 		"Kruxa",
-		182,
+		9,
 		"avoxboatclub"
 	],
 	[
 		"Fy17",
-		323,
+		0,
 		"avoxboatclub"
 	],
 	[
 		"Isaklindhe",
-		34,
+		61,
 		"evileyeracing"
 	],
 	[
 		"NissePRO",
-		232,
+		27,
 		"evileyeracing"
 	],
 	[
 		"VonEmil",
-		35,
+		50,
 		"everdawnracing"
 	],
 	[
 		"Xvalpen",
-		12,
+		21,
 		"everdawnracing"
 	],
 	[
 		"Adde_1313",
-		78,
+		3,
 		"vinderacing"
 	],
 	[
 		"Bobbis17",
-		20,
+		21,
 		"vinderacing"
 	]
 ]

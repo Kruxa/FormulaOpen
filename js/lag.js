@@ -8,22 +8,22 @@ const teams = {
 const userList = [
 	[
 		"Avox Boatclub",
-		122,
+		9,
 		"avoxboatclub"
 	],
 	[
 		"Vinde Racing",
-		73,
+		30,
 		"vinderacing"
 	],
 	[
 		"Evileye Racing",
-		22,
+		88,
 		"evileyeracing"
 	],
 	[
 		"Everdawn Racing",
-		34,
+		71,
 		"everdawnracing"
 	]
 ]
