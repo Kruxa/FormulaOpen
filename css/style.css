@@ -257,6 +257,17 @@ body {
     width: 90%;
 }
 
+
+
+.mobilfooter {
+    width: 100%;
+    display: block;
+}
+.datorfooter {
+    display: none;
+}
+
+
 @media (min-width: 1030px) {
     .bildmenu div {
         width: calc(50% - 46px);
@@ -282,5 +293,11 @@ body {
         padding: 10px;
     }
 
-    
+    .mobilfooter {
+        display: none;
+    }
+    .datorfooter {
+        width: 100%;
+        display: block;
+    }
 }
