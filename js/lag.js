@@ -23,7 +23,7 @@ const userList = [
 	],
 	[
 		"Everdawn Racing",
-		71,
+		74,
 		"everdawnracing"
 	]
 ]
