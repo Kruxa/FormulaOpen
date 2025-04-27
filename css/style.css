@@ -268,6 +268,78 @@ body {
 }
 
 
+.bigmenu {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.bigmenu a {
+    background-color: rgb(35, 32, 56);
+    width: 50%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: solid 1px rgb(189, 189, 189);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textklump {
+    width: 92%;
+    margin: auto;
+    background-color: rgb(35, 35, 46);
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.rubrik {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.downdiv {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(40, 40, 49);
+    height: 60px;
+    border: solid 2px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.downloadfil {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.modrinthbild {
+    height: 80%;
+    margin: 5px;
+}
+
+.footer {
+    color: rgb(185, 185, 185);
+    margin-left: 20px;
+}
+
+
 @media (min-width: 1030px) {
     .bildmenu div {
         width: calc(50% - 46px);
