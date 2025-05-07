@@ -17,8 +17,8 @@ const userList = [
 		"avoxboatclub"
 	],
 	[
-		"Isaklindhe",
-		61,
+		"Swets_clan",
+		0,
 		"evileyeracing"
 	],
 	[
@@ -87,13 +87,6 @@ for (i = 0; i < userList.length; i++) {
 	menu.appendChild(playerContainer);
 }
 
-  // const menu = document.querySelector(".menu");
-  // const spelare = Array.from(menu.children);
-  // console.log(spelare);
-  // console.log(spelare[0].dataset.score);
-  // spelare.sort((a, b) => b.dataset.score - a.dataset.score);
-  // spelare.forEach(spelare => menu.appendChild(spelare));
-
 function openMenu() {
 	var x = document.getElementById("links");
 	if (x.style.display === "block") {
@@ -102,4 +95,3 @@ function openMenu() {
 		x.style.display = "block";
 	}
 }
-
