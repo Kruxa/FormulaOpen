@@ -13,22 +13,22 @@ const userList = [
 	],
 	[
 		"Fy17",
-		0,
+		6,
 		"avoxboatclub"
 	],
 	[
 		"Swets_clan",
-		0,
+		23,
 		"evileyeracing"
 	],
 	[
 		"NissePRO",
-		39,
+		48,
 		"evileyeracing"
 	],
 	[
 		"VonEmil",
-		73,
+		88,
 		"everdawnracing"
 	],
 	[
@@ -43,7 +43,7 @@ const userList = [
 	],
 	[
 		"Bobbis17",
-		36,
+		48,
 		"vinderacing"
 	]
 ]
