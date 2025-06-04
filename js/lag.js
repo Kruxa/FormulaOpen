@@ -17,7 +17,7 @@ const userList = [
 		"vinderacing"
 	],
 	[
-		"Evileye Formula Open Team",
+		"Evileye Formula Team",
 		156,
 		"evileyeracing"
 	],
