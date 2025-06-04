@@ -1,6 +1,6 @@
 const teams = {
 	"avoxboatclub": "https://i.ibb.co/jvXzmvqD/IMG-2117.png",
-	"evileyeracing": "https://i.ibb.co/6cdrtN7F/IMG-2118.png",
+	"evileyeracing": "https://i.ibb.co/DDTkzZqF/IMG-2898.png",
 	"everdawnracing": "https://i.ibb.co/v4Vqxh3K/IMG-1929.jpg",
 	"vinderacing": "https://i.ibb.co/tpWg4bpF/IMG-1930.jpg"
 }
