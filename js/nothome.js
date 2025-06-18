@@ -8,7 +8,7 @@ const teams = {
 const userList = [
 	[
 		"Kruxa",
-		24,
+		27,
 		"avoxboatclub"
 	],
 	[
@@ -18,22 +18,22 @@ const userList = [
 	],
 	[
 		"Swets_clan",
-		38,
+		61,
 		"evileyeracing"
 	],
 	[
 		"NissePRO",
-		57,
+		63,
 		"evileyeracing"
 	],
 	[
 		"VonEmil",
-		111,
+		126,
 		"everdawnracing"
 	],
 	[
 		"Xvalpen",
-		27,
+		36,
 		"everdawnracing"
 	],
 	[
@@ -43,7 +43,7 @@ const userList = [
 	],
 	[
 		"Bobbis17",
-		51,
+		63,
 		"vinderacing"
 	]
 ]
